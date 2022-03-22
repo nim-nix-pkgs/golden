@@ -31,7 +31,7 @@
   
   inputs."http://github.com/genotrance/nimgit2.git".owner = "nim-nix-pkgs";
   inputs."http://github.com/genotrance/nimgit2.git".ref   = "master";
-  inputs."http://github.com/genotrance/nimgit2.git".repo  = "http://github.com/genotrance/nimgit2.git";
+  inputs."http://github.com/genotrance/nimgit2.git".repo  = "http://github.com/genotrance/nimgit2";
   inputs."http://github.com/genotrance/nimgit2.git".dir   = "";
   inputs."http://github.com/genotrance/nimgit2.git".type  = "github";
   inputs."http://github.com/genotrance/nimgit2.git".inputs.nixpkgs.follows = "nixpkgs";
