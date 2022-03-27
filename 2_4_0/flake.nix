@@ -11,6 +11,7 @@
   inputs.src-golden-2_4_0.ref   = "refs/tags/2.4.0";
   inputs.src-golden-2_4_0.owner = "disruptek";
   inputs.src-golden-2_4_0.repo  = "golden";
+  inputs.src-golden-2_4_0.dir   = "";
   inputs.src-golden-2_4_0.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
