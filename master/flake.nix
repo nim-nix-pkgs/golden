@@ -11,7 +11,6 @@
   inputs.src-golden-master.ref   = "refs/heads/master";
   inputs.src-golden-master.owner = "disruptek";
   inputs.src-golden-master.repo  = "golden";
-  inputs.src-golden-master.dir   = "";
   inputs.src-golden-master.type  = "github";
   
   inputs."foreach".owner = "nim-nix-pkgs";
@@ -45,6 +44,14 @@
   inputs."terminaltables".type  = "github";
   inputs."terminaltables".inputs.nixpkgs.follows = "nixpkgs";
   inputs."terminaltables".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/disruptek/gittyup".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/gittyup".ref   = "master";
+  inputs."github.com/disruptek/gittyup".repo  = "github.com/disruptek/gittyup";
+  inputs."github.com/disruptek/gittyup".dir   = "";
+  inputs."github.com/disruptek/gittyup".type  = "github";
+  inputs."github.com/disruptek/gittyup".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/gittyup".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."nimterop".owner = "nim-nix-pkgs";
   inputs."nimterop".ref   = "master";

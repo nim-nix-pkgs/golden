@@ -11,7 +11,6 @@
   inputs.src-golden-2_0_0.ref   = "refs/tags/2.0.0";
   inputs.src-golden-2_0_0.owner = "disruptek";
   inputs.src-golden-2_0_0.repo  = "golden";
-  inputs.src-golden-2_0_0.dir   = "";
   inputs.src-golden-2_0_0.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
@@ -54,13 +53,13 @@
   inputs."lmdb".inputs.nixpkgs.follows = "nixpkgs";
   inputs."lmdb".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."http://github.com/genotrance/nimgit2.git".owner = "nim-nix-pkgs";
-  inputs."http://github.com/genotrance/nimgit2.git".ref   = "master";
-  inputs."http://github.com/genotrance/nimgit2.git".repo  = "http://github.com/genotrance/nimgit2.git";
-  inputs."http://github.com/genotrance/nimgit2.git".dir   = "";
-  inputs."http://github.com/genotrance/nimgit2.git".type  = "github";
-  inputs."http://github.com/genotrance/nimgit2.git".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."http://github.com/genotrance/nimgit2.git".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."nimgit2".owner = "nim-nix-pkgs";
+  inputs."nimgit2".ref   = "master";
+  inputs."nimgit2".repo  = "nimgit2";
+  inputs."nimgit2".dir   = "v0_1_0";
+  inputs."nimgit2".type  = "github";
+  inputs."nimgit2".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."nimgit2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

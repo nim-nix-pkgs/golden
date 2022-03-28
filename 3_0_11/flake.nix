@@ -11,7 +11,6 @@
   inputs.src-golden-3_0_11.ref   = "refs/tags/3.0.11";
   inputs.src-golden-3_0_11.owner = "disruptek";
   inputs.src-golden-3_0_11.repo  = "golden";
-  inputs.src-golden-3_0_11.dir   = "";
   inputs.src-golden-3_0_11.type  = "github";
   
   inputs."foreach".owner = "nim-nix-pkgs";
@@ -37,6 +36,14 @@
   inputs."nimetry".type  = "github";
   inputs."nimetry".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimetry".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/disruptek/msgpack4nim".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/msgpack4nim".ref   = "master";
+  inputs."github.com/disruptek/msgpack4nim".repo  = "github.com/disruptek/msgpack4nim";
+  inputs."github.com/disruptek/msgpack4nim".dir   = "";
+  inputs."github.com/disruptek/msgpack4nim".type  = "github";
+  inputs."github.com/disruptek/msgpack4nim".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/msgpack4nim".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."terminaltables".owner = "nim-nix-pkgs";
   inputs."terminaltables".ref   = "master";
