@@ -45,13 +45,13 @@
   inputs."msgpack4nim".inputs.nixpkgs.follows = "nixpkgs";
   inputs."msgpack4nim".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github-disruptek-nim-terminaltables".owner = "nim-nix-pkgs";
-  inputs."github-disruptek-nim-terminaltables".ref   = "master";
-  inputs."github-disruptek-nim-terminaltables".repo  = "github-disruptek-nim-terminaltables";
-  inputs."github-disruptek-nim-terminaltables".dir   = "master";
-  inputs."github-disruptek-nim-terminaltables".type  = "github";
-  inputs."github-disruptek-nim-terminaltables".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-disruptek-nim-terminaltables".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/disruptek/nim-terminaltables".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/nim-terminaltables".ref   = "master";
+  inputs."github.com/disruptek/nim-terminaltables".repo  = "github.com/disruptek/nim-terminaltables";
+  inputs."github.com/disruptek/nim-terminaltables".dir   = "";
+  inputs."github.com/disruptek/nim-terminaltables".type  = "github";
+  inputs."github.com/disruptek/nim-terminaltables".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/nim-terminaltables".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."nimgit2".owner = "nim-nix-pkgs";
   inputs."nimgit2".ref   = "master";
@@ -72,7 +72,7 @@
   inputs."cligen".owner = "nim-nix-pkgs";
   inputs."cligen".ref   = "master";
   inputs."cligen".repo  = "cligen";
-  inputs."cligen".dir   = "v1_5_24";
+  inputs."cligen".dir   = "v1_5_25";
   inputs."cligen".type  = "github";
   inputs."cligen".inputs.nixpkgs.follows = "nixpkgs";
   inputs."cligen".inputs.flakeNimbleLib.follows = "flakeNimbleLib";

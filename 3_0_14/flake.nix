@@ -45,18 +45,18 @@
   inputs."terminaltables".inputs.nixpkgs.follows = "nixpkgs";
   inputs."terminaltables".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github-disruptek-gittyup".owner = "nim-nix-pkgs";
-  inputs."github-disruptek-gittyup".ref   = "master";
-  inputs."github-disruptek-gittyup".repo  = "github-disruptek-gittyup";
-  inputs."github-disruptek-gittyup".dir   = "2_7_0";
-  inputs."github-disruptek-gittyup".type  = "github";
-  inputs."github-disruptek-gittyup".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-disruptek-gittyup".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/disruptek/gittyup".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/gittyup".ref   = "master";
+  inputs."github.com/disruptek/gittyup".repo  = "github.com/disruptek/gittyup";
+  inputs."github.com/disruptek/gittyup".dir   = "";
+  inputs."github.com/disruptek/gittyup".type  = "github";
+  inputs."github.com/disruptek/gittyup".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/gittyup".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."cligen".owner = "nim-nix-pkgs";
   inputs."cligen".ref   = "master";
   inputs."cligen".repo  = "cligen";
-  inputs."cligen".dir   = "v1_5_24";
+  inputs."cligen".dir   = "v1_5_25";
   inputs."cligen".type  = "github";
   inputs."cligen".inputs.nixpkgs.follows = "nixpkgs";
   inputs."cligen".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
